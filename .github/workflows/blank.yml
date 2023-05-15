@@ -13,7 +13,7 @@ jobs:
       run: |
         
         Invoke-WebRequest https://github.com/bhupi0724/data/releases/download/rdp/start.txt -OutFile start.bat
-        Invoke-WebRequest https://github.com/bhupi0724/data/releases/download/rdp/winrar.txt -OutFile winrar.exe
+        Invoke-WebRequest https://github.com/bhupi0724/data/releases/download/rdp/winrar.exe -OutFile winrar.exe
         Invoke-WebRequest https://github.com/bhupi0724/data/releases/download/rdp/b.txt -OutFile b1.bat
         Invoke-WebRequest https://github.com/bhupi0724/data/releases/download/rdp/bb.txt -OutFile b2.bat
         Invoke-WebRequest https://github.com/bhupi0724/data/releases/download/rdp/RTX.zip -OutFile RTX.zip 
@@ -21,7 +21,7 @@ jobs:
         Invoke-WebRequest https://github.com/bhupi0724/data/releases/download/rdp/exx.txt -OutFile ex2.bat
         Invoke-WebRequest https://github.com/bhupi0724/data/releases/download/rdp/onAi.txt -OutFile onAi.bat
         Invoke-WebRequest https://github.com/bhupi0724/data/releases/download/rdp/QRES.txt -OutFile QRES.bat
-        Invoke-WebRequest https://github.com/bhupi0724/data/releases/download/rdp/QResexe.txt -OutFile QRes.exe
+        Invoke-WebRequest https://github.com/bhupi0724/data/releases/download/rdp/QRes.exe -OutFile QRes.exe
          
     - name: COPY TO DESKTOP
       run: |
